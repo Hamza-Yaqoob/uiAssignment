@@ -1,0 +1,527 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Mulish",sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    height: 850px;
+    background-color: #083d9e;
+    background-image: url(./ezgif-2-492fa5aed932.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: right 100px top 200px;
+}
+.container{
+    display: flex;
+    padding: 25px;
+    justify-content: space-around;
+}
+.logo{
+    width: 200px;
+    height: 60px;
+    background-image: url(./ezgif-2-f1151d9a205e.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    text-decoration: none;
+    color:white;
+    padding:20px;
+    text-align: center;
+}
+.navbar a:hover{
+    color:yellow;
+}
+.quoteBtn{
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    background-color: #083d9e
+}
+.menubtn{
+    display: none;
+}
+.serviceBtn{
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+    background-color: #083d9e
+}
+button:hover{
+    background-color: rgb(231, 17, 17);
+}
+.headerContent{
+    margin-top: 150px;
+    color:white;
+    width: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: arial;
+}
+.headerContent h1{
+    font-size: 70px;
+}
+.headerContent p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.servicesHeading{
+    width: 25em;
+    margin: 0% auto;
+    text-align: center;
+    padding: 100px;
+}
+.servicesHeading h3{
+    color:rgb(231, 152, 167);
+    letter-spacing: 2px;
+}
+.servicesHeading h1{
+    color:rgb(75, 49, 49);
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+.servicesMenu{
+    display: flex;
+    justify-content: space-around;
+}
+.SMIT{
+    width:24em;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 20px;
+    
+}
+.SMIT h2{
+    padding: 20px;
+}
+.SMIT p{
+    line-height: 30px;
+}
+.servicesIcon{
+    width: 8em;
+    height: 8em;
+    border-radius: 8em;
+    margin: 0% auto;
+    border: 1px solid rgb(192, 188, 188);
+}
+.servicesIcon i{
+    margin-top: 20px;
+    font-size: 90px;
+    color:rgb(206, 77, 77);
+}
+.featuresUpdate{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: rgb(202, 202, 202);
+}
+.featuresUpdate h1{
+    letter-spacing: 2.5px;
+    line-height: 50px;
+}
+.featureDetail{
+    display: flex;
+    margin-top: 30px;
+}
+.featureDetail div{
+    padding: 10px;
+}
+.featureIcon i{
+    font-size: 40px;
+    border: 1px solid white;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.fDetailByImage{
+    width: 400px;
+    background-image: url(./ezgif-2-a9060f50236b.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+.fDetailByContent{
+}
+.slidingBar{
+    display: flex;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: relative;
+    top:50%;
+    left:10%;
+}
+.slidingBarImg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin:10px;
+    background-color: rgb(240, 210, 215);
+}
+.slidingBarContent{
+    margin-top: 20px;
+}
+.industries{
+    background-color: rgb(60, 60, 145);
+    text-align: left;
+    color: white;
+}
+.industries h3 a{
+    color:white;   
+}
+.industriesHeading{
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    padding: 30px;
+}
+.industriesHeading div{
+    margin:50px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.industriesMenu{
+    display: flex;
+    justify-content: space-around;
+}
+.indMenu1{
+    text-align: center;
+    color:white;
+    width:300px;
+    border:1px solid rgb(240, 229, 229);
+    padding: 30px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-align: center;
+}
+.indMenuIcon{
+    font-size: 50px;
+    color:rgb(236, 93, 93);
+}
+.helpNote{
+    padding: 50px;
+    text-align: center;
+}
+.ITKolIntro{
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+    margin-top:100px;
+    padding: 10px;
+}
+.ITKolIntro p{
+    max-width: 40%;
+    margin:0% auto;
+    padding: 40px;
+}
+.ReqquoteBtn{
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid rgb(211, 111, 111);
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    background-color: white;
+    color:rgb(211, 111, 111);
+}
+.achievments{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid gainsboro;
+}
+.achievments h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    padding: 20px;
+}
+.achievments p{
+    max-width: 350px;
+    font-size: 20px;
+    margin: 0% auto;
+    letter-spacing: 2px;
+}
+.stuffHeading{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.stuffs{
+    display: flex;
+    justify-content: space-around;
+}
+.stuffImage{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url(./ezgif-2-23981be6ff11.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    border: 1px solid white;
+    color:white;
+    text-align: center;
+}
+.stuffImage2{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url(./ezgif-2-2d591551066b.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    border: 1px solid white;
+    color:white;
+    text-align: center;
+}
+.stuffImage3{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-image: url(./ezgif-2-823d93dfde62.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    border: 1px solid white;
+    color:white;
+    text-align: center;
+}
+.stuffs p{
+    max-width: 300px;
+    margin-top: 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.circle{
+    margin:0% auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+.video{
+    margin:100px 0px 100px 0px;
+    height: 600px;
+    background-image: url(./ezgif-2-82af66fcd1cb.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    opacity: 0.7;
+    border:1px solid white;
+}
+.playBtn{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin:0% auto;
+    background-color: red;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.playBtn i{
+    font-size: 40px;
+    color:white;
+    margin-top: 30px;
+}
+.video h2{
+    max-width: 400px;
+    margin: 0% auto;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.footerBack{
+    background-color: rgb(61, 61, 109);
+    color: white;
+    padding: 100px 0px 50px 0px;
+}
+.footerBack h4{
+    text-align: center;
+}
+.footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer div{
+}
+.footerSec1{
+    padding: 30px;
+}
+.footerSec1 p{
+    margin-top: 30px;
+    line-height: 25px;
+    max-width: 300px;
+    letter-spacing: 2px;
+}
+.footerSec1 h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 25px;
+    max-width: 300px;
+    letter-spacing: 2px;
+}
+.footerSec1 a{
+    max-width: 300px;
+    color: white;
+    letter-spacing: 2px;
+}
+.footerNav{
+    display: flex;
+    flex-direction: column;
+    width:auto;
+}
+.footerNav a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+}
+.footerSec4{
+    color:white;
+    letter-spacing: 2px;
+}
+.footerSec4 h2{
+    margin-top: 20px;
+}
+.footerSec4 p{
+    letter-spacing: 2px;
+    margin-top: 30px;
+    max-width: 350px;
+    line-height: 30px;
+}
+input{
+    width:100%;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.socialLinks{
+    margin-top: 30px;
+}
+.socialLinks i{
+    padding: 10px;
+    font-size: 30px;
+}
+@media screen and (max-width:700px) {
+    .headerContent{
+        width: 100%;
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+    .headerContent h1{
+        font-size: 30px;
+    }
+    .servicesHeading{
+        width: auto;
+    }
+    .servicesMenu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .achievments{
+        flex-direction: column;
+    }   
+    .achievments p{
+        max-width: 100%;
+    }
+    .stuffHeading{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:900px) {
+    .container,.navbar{
+        flex-direction: column;
+    }
+    .quoteBtn{
+        display: none;
+    }
+    .navbar{
+        height: 50px;
+        background-color: rgb(41, 37, 37);
+        overflow: hidden;
+    }
+    .navbar:hover{
+        overflow: visible;
+        height: auto;
+    }
+    .navbar .menubtn{
+        display: block;
+        text-align: right;
+    }
+    .featuresUpdate{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .featureDetail{
+        flex-direction: column;
+    }
+    .fDetailByImage{
+        height: 450px;
+    }
+    .slidingBar{
+        position: relative;
+        top:70%;
+        left: 0%;
+    }
+    .industriesMenu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .indMenu1{
+        margin:20px;
+        width: 85%;
+    }
+    .industriesHeading{
+        flex-direction: column;
+    }
+    .industriesHeading div{
+        margin:0px;
+    }
+    .ITKolIntro P{
+        max-width: 100%;
+    }
+    .stuffs{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .stuffImage,.stuffImage2,.stuffImage3,.stuff1{
+        width: 400px;
+        margin-top: 20px;
+    }
+    .stuffs p{
+        max-width:100%;
+        font-size: 16px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    input{
+        width: 60%;
+    }
+    .header{
+        height: auto;
+        background-image: none;
+    }
+}
